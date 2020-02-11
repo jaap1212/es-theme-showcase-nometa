@@ -78,11 +78,10 @@ version         1.0
          <size>1 1</size>
          <path>./_inc/images/backgroundgame.png</path>
       </image>
-
-<text name="md_lbl_rating, md_rating, md_lbl_playcount">
+      <text name="md_lbl_rating, md_lbl_playcount, md_rating">
          <pos>1 1</pos>
       </text>
-      <text name="md_lbl_rating, md_lbl_players,md_players, md_lbl_playcount">
+      <text name="md_lbl_rating,md_lbl_playcount,md_lbl_players,md_playcount,md_players">
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
          <fontSize>0.0195</fontSize>
@@ -104,8 +103,14 @@ version         1.0
       <text name="md_players">
          <pos>0.82 0.79</pos>
          <size>0.0375 0.025</size>
-     </text>     
-     <text name="md_lbl_playcount">
+      </text>
+      <text name="md_description">
+         <pos>0.443 0.12</pos>
+         <size>0.525 0.1</size>
+         <alignment>center</alignment>
+         <color>FFFFFF</color>
+      </text>
+           <text name="md_lbl_playcount">
      <pos>0.77 0.82</pos>
      <size>0.375 0.025</size>
      </text>		
@@ -116,38 +121,6 @@ version         1.0
      <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
      <fontSize>0.0195</fontSize>
      </text>
-
-      
-      
-      
-         <textlist name="gamelist">
-         <pos>0.04 0.17</pos>
-         <size>0.3 0.67</size>
-         <alignment>left</alignment>
-      </textlist>
-   </view>
-
-   <view name="detailed,video">
-      <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/images/backgroundgame.png</path>
-      </image>
-      <text name="">
-         <pos>1 1</pos>
-      </text>
-      <text name="">
-         <color>FFFFFF</color>
-         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
-         <fontSize>0.0195</fontSize>
-      </text>   
-
-      <text name="md_description">
-         <pos>0.44 0.55</pos>
-         <size>0.525 0.29</size>
-         <color>FFFFFF</color>
-      </text>
       <textlist name="gamelist">
          <pos>0.04 0.17</pos>
          <size>0.3 0.67</size>
